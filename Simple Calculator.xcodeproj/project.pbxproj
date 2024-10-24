@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7C6760702CCA0D3200A70B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C67606F2CCA0D3200A70B39 /* Assets.xcassets */; };
+		7C6760732CCA0D3200A70B39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6760712CCA0D3200A70B39 /* LaunchScreen.storyboard */; };
+		7C6760DD2CCA72AD00A70B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6760D92CCA72AD00A70B39 /* AppDelegate.swift */; };
+		7C6760DE2CCA72AD00A70B39 /* CalculatorSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6760DA2CCA72AD00A70B39 /* CalculatorSelectionVC.swift */; };
+		7C6760DF2CCA72AD00A70B39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6760DB2CCA72AD00A70B39 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7C67607A2CCA0D3200A70B39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,29 +33,17 @@
 
 /* Begin PBXFileReference section */
 		7C6760632CCA0D3000A70B39 /* Simple Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C67606F2CCA0D3200A70B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C6760722CCA0D3200A70B39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C6760742CCA0D3200A70B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C6760792CCA0D3200A70B39 /* Simple CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6760832CCA0D3200A70B39 /* Simple CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C6760D92CCA72AD00A70B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C6760DA2CCA72AD00A70B39 /* CalculatorSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSelectionVC.swift; sourceTree = "<group>"; };
+		7C6760DB2CCA72AD00A70B39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7C67608B2CCA0D3200A70B39 /* Exceptions for "Simple Calculator" folder in "Simple Calculator" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7C6760622CCA0D3000A70B39 /* Simple Calculator */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7C6760652CCA0D3000A70B39 /* Simple Calculator */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7C67608B2CCA0D3200A70B39 /* Exceptions for "Simple Calculator" folder in "Simple Calculator" target */,
-			);
-			path = "Simple Calculator";
-			sourceTree = "<group>";
-		};
 		7C67607C2CCA0D3200A70B39 /* Simple CalculatorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Simple CalculatorTests";
@@ -88,7 +84,7 @@
 		7C67605A2CCA0D3000A70B39 = {
 			isa = PBXGroup;
 			children = (
-				7C6760652CCA0D3000A70B39 /* Simple Calculator */,
+				7C6760DC2CCA72AD00A70B39 /* Simple Calculator */,
 				7C67607C2CCA0D3200A70B39 /* Simple CalculatorTests */,
 				7C6760862CCA0D3200A70B39 /* Simple CalculatorUITests */,
 				7C6760642CCA0D3000A70B39 /* Products */,
@@ -105,6 +101,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7C6760DC2CCA72AD00A70B39 /* Simple Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7C6760712CCA0D3200A70B39 /* LaunchScreen.storyboard */,
+				7C6760742CCA0D3200A70B39 /* Info.plist */,
+				7C67606F2CCA0D3200A70B39 /* Assets.xcassets */,
+				7C6760D92CCA72AD00A70B39 /* AppDelegate.swift */,
+				7C6760DA2CCA72AD00A70B39 /* CalculatorSelectionVC.swift */,
+				7C6760DB2CCA72AD00A70B39 /* SceneDelegate.swift */,
+			);
+			path = "Simple Calculator";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7C6760652CCA0D3000A70B39 /* Simple Calculator */,
 			);
 			name = "Simple Calculator";
 			packageProductDependencies = (
@@ -225,6 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6760732CCA0D3200A70B39 /* LaunchScreen.storyboard in Resources */,
+				7C6760702CCA0D3200A70B39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6760DD2CCA72AD00A70B39 /* AppDelegate.swift in Sources */,
+				7C6760DE2CCA72AD00A70B39 /* CalculatorSelectionVC.swift in Sources */,
+				7C6760DF2CCA72AD00A70B39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +292,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		7C6760712CCA0D3200A70B39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C6760722CCA0D3200A70B39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7C67608D2CCA0D3200A70B39 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -294,7 +316,7 @@
 				INFOPLIST_FILE = "Simple Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +344,7 @@
 				INFOPLIST_FILE = "Simple Calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
